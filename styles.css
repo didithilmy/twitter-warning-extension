@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Nunito+Sans&display=swap");
+
+.twex p {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.twex .twex-dialog {
+  background: #ef5350;
+  color: #fff;
+  border-radius: 4px;
+  display: inline-block;
+  margin: 1rem;
+  position: fixed;
+  width: 400px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  top: 0;
+  right: 0;
+  z-index: 10000000;
+  padding: 16px;
+}
+
+.twex .twex-dialog.hidden {
+  display: none;
+}
+
+.twex h1,
+.twex h2,
+.twex h3,
+.twex h4 {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.twex .secondary {
+  color: #ffffffaa;
+}
+
+.twex a {
+  text-decoration: none;
+}
+
+.twex .btn {
+  color: #fff;
+  background: transparent;
+  outline: 0;
+  border: 1px solid #ffffff66;
+  padding: 8px;
+  border-radius: 4px;
+  font-size: small;
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Twitter Warning Prompt",
+  "version": "0.1",
+  "description": "Show you a prompt everytime you open Twitter reminding if you mistakenly visit Twitter.",
+  "web_accessible_resources": ["script.js", "html/dialog.html", "warning.svg"],
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://twitter.com/",
+        "https://twitter.com/*"
+      ],
+      "js": ["content-script.js"],
+      "css": ["styles.css"]
+    }
+  ],
+  "manifest_version": 2
+}
